@@ -29,7 +29,7 @@ client.on('message', message => {
 });
 
 client.on("ready", () => {
-let channel =     client.channels.get("597531258922467389")
+let channel =     client.channels.get("600501515672748051")
 setInterval(function() {
 channel.send(`@here @here  https://discord.gg/aecGfZF`);
 }, 30)
